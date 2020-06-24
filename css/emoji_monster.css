@@ -1,8 +1,8 @@
-.emoji_group .emoji_monster {
+.emoji.emoji_monster {
   background-color: orange;
 }
 
-.emoji .title_monster {
+.title.title_monster {
   color: orange;
 }
 

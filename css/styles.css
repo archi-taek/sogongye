@@ -32,7 +32,7 @@ a {
 .emoji_group {
   display: flex;
   margin-bottom: 20px;
-  /* width: auto; */
+  width: 500px;
 }
 
 .emoji {
