@@ -66,15 +66,16 @@ a {
 .empty {
   /* background-color: red; */
   width: 1px;
-  display: flex;
-  position: relative;
+  height: 1px;
+  /* display: flex; */
+  position: block;
 }
 
-.empty_empty {
+/* .empty_empty {
   width: 1px;
   display: block;
   position: relative;
-}
+} */
 
 /* .header {
   background-color: white;
