@@ -64,9 +64,10 @@ a {
 }
 
 .empty {
-  background-color: red;
+  /* background-color: red; */
   width: 1px;
   display: flex;
+  position: relative;
 }
 
 /* .header {
