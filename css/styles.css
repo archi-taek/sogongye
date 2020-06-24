@@ -72,8 +72,8 @@ a {
 }
 
 .empty_empty {
-  /* width: 1px;
-  height: 1px; */
+  width: 1px;
+  height: 1px;
   display: block;
   position: absolute;
 }
