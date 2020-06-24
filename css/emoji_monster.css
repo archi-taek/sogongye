@@ -1,3 +1,7 @@
+.emoji_group .emoji_monster {
+  background-color: orange;
+}
+
 .emoji_icon_monster_body {
   position: absolute;
   z-index: 2;

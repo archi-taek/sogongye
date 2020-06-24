@@ -1,3 +1,7 @@
+.emoji_group .emoji_rabbit {
+  background-color: green;
+}
+
 .emoji_icon_rabbit_body {
   position: absolute;
   z-index: 2;
