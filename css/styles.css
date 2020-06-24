@@ -64,8 +64,8 @@ a {
 }
 
 .empty {
-  /* background-color: red;
-  width: 1px; */
+  background-color: red;
+  width: 1px;
   display: block;
 }
 
