@@ -70,6 +70,12 @@ a {
   position: relative;
 }
 
+.empty_empty {
+  width: 1px;
+  display: block;
+  position: relative;
+}
+
 /* .header {
   background-color: white;
   position: fixed;
