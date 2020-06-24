@@ -2,6 +2,10 @@
   background-color: orange;
 }
 
+.emoji .title_monster {
+  color: orange;
+}
+
 .emoji_icon_monster_body {
   position: absolute;
   z-index: 2;
