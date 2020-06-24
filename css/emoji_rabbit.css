@@ -1,0 +1,86 @@
+.emoji_icon_rabbit_body {
+  position: absolute;
+  z-index: 2;
+  left: 40px;
+  top: 60px;
+}
+
+.emoji_icon_rabbit_ear1 {
+  position: absolute;
+  z-index: 1;
+  left: 95px;
+  top: 5px;
+}
+
+.emoji_icon_rabbit_ear2 {
+  position: absolute;
+  z-index: 1;
+  left: 125px;
+  top: 5px;
+}
+
+.emoji_icon_rabbit_tail {
+  position: absolute;
+  z-index: 1;
+  left: 18px;
+  top: 115px;
+}
+
+.emoji_icon_rabbit_carrot {
+  position: absolute;
+  z-index: 1;
+  left: 160px;
+  top: 130px;
+}
+
+@keyframes swing_ear {
+  0% {
+    transform: none;
+  }
+
+  25% {
+    transform: translateX(-2px) rotate(-3deg);
+  }
+
+  50% {
+    transform: none;
+  }
+
+  75% {
+    transform: translateX(2px) rotate(3deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.emoji_icon_rabit:hover .emoji_icon_rabbit_ear1 {
+  animation: swing_ear 1.5s linear 0s infinite;
+}
+
+.emoji_icon_rabit:hover .emoji_icon_rabbit_ear2 {
+  animation: swing_ear 1.5s linear 0s infinite reverse;
+}
+
+.emoji_icon_rabit:hover .emoji_icon_rabbit_carrot {
+  animation: swing_ear 1s linear 0s infinite;
+}
+
+@keyframes swing_tail {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.emoji_icon_rabit:hover .emoji_icon_rabbit_tail {
+  animation: swing_tail 0.5s linear 0s infinite;
+}
