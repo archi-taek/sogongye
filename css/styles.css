@@ -65,17 +65,18 @@ a {
 
 .empty {
   /* background-color: red; */
-  width: 1px;
-  height: 1px;
+  /* width: 1px;
+  height: 1px; */
   position: relative;
   /* display: block; */
 }
 
-/* .empty_empty {
-  width: 1px;
+.empty_empty {
+  /* width: 1px;
+  height: 1px; */
   display: block;
-  position: relative;
-} */
+  position: absolute;
+}
 
 /* .header {
   background-color: white;
