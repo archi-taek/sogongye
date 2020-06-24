@@ -63,9 +63,10 @@ a {
   position: relative;
 }
 
-.emoji_empty {
-  background-color: red;
-  width: 1px;
+.empty {
+  /* background-color: red;
+  width: 1px; */
+  display: block;
 }
 
 /* .header {
