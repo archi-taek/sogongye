@@ -67,8 +67,8 @@ a {
   /* background-color: red; */
   width: 1px;
   height: 1px;
-  /* display: flex; */
-  display: block;
+  position: relative;
+  /* display: block; */
 }
 
 /* .empty_empty {
