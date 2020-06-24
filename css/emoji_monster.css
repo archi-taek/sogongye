@@ -56,19 +56,19 @@
 }
 
 .emoji_icon_monster:hover .emoji_icon_monster_hair1 {
-  animation: swing_ear 1.5s linear 0s infinite;
+  animation: swing_hair 1.5s linear 0s infinite;
 }
 
 .emoji_icon_monster:hover .emoji_icon_monster_hair2 {
-  animation: swing_ear 1.5s linear 0s infinite;
+  animation: swing_hair 1.5s linear 0s infinite;
 }
 
 .emoji_icon_monster:hover .emoji_icon_monster_hair3 {
-  animation: swing_ear 1.5s linear 0s infinite;
+  animation: swing_hair 1.5s linear 0s infinite;
 }
 
 .emoji_icon_monster:hover .emoji_icon_monster_hair4 {
-  animation: swing_ear 1.5s linear 0s infinite;
+  animation: swing_hair 1.5s linear 0s infinite;
 }
 
 @keyframes pumping {
@@ -86,5 +86,5 @@
 }
 
 .emoji_icon_monster:hover .emoji_icon_monster_body {
-  animation: pumping 1s linear 0s infinite;
+  animation: swing_hair 3s linear 0s infinite reverse;
 }
