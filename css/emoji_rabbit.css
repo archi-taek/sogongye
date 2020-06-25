@@ -92,3 +92,29 @@
 .emoji_icon_rabit:hover .emoji_icon_rabbit_tail {
   animation: swing_tail 0.5s linear 0s infinite;
 }
+
+@keyframes swing_body {
+  0% {
+    transform: none;
+  }
+
+  25% {
+    transform: rotate(-2deg);
+  }
+
+  50% {
+    transform: none;
+  }
+
+  75% {
+    transform: rotate(2deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.emoji_icon_rabit:hover .emoji_icon_rabbit_body {
+  animation: swing_body 3s linear 0s infinite;
+}
