@@ -1,8 +1,8 @@
-.emoji.emoji_monster {
+.emoji.emoji_monster:hover {
   background-color: orange;
 }
 
-.title.title_monster {
+.emoji.emoji_monster:hover .title.title_monster {
   color: orange;
 }
 
@@ -63,19 +63,19 @@
   }
 }
 
-.emoji_icon_monster:hover .emoji_icon_monster_hair1 {
+.emoji.emoji_monster:hover .emoji_icon_monster_hair1 {
   animation: swing_hair 1.5s linear 0s infinite;
 }
 
-.emoji_icon_monster:hover .emoji_icon_monster_hair2 {
+.emoji.emoji_monster:hover .emoji_icon_monster_hair2 {
   animation: swing_hair 1.5s linear 0s infinite reverse;
 }
 
-.emoji_icon_monster:hover .emoji_icon_monster_hair3 {
+.emoji.emoji_monster:hover .emoji_icon_monster_hair3 {
   animation: swing_hair 2s linear 0s infinite;
 }
 
-.emoji_icon_monster:hover .emoji_icon_monster_hair4 {
+.emoji.emoji_monster:hover .emoji_icon_monster_hair4 {
   animation: swing_hair 2s linear 0s infinite reverse;
 }
 
@@ -93,6 +93,6 @@
   }
 }
 
-.emoji_icon_monster:hover .emoji_icon_monster_body {
+.emoji.emoji_monster:hover .emoji_icon_monster_body {
   animation: swing_hair 3s linear 0s infinite reverse;
 }
