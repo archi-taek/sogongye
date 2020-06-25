@@ -71,7 +71,7 @@
   animation: swing_ear 1.5s linear 0s infinite reverse;
 }
 
-..emoji.emoji_rabbit:hover .emoji_icon_rabbit_carrot {
+.emoji.emoji_rabbit:hover .emoji_icon_rabbit_carrot {
   animation: swing_ear 1s linear 0s infinite;
 }
 
