@@ -140,7 +140,7 @@
   animation: swing_mouse_nose 1.5s linear 0s infinite;
 } */
 
-@keyframes swing_mouse_tail {
+@keyframes swing_mouse_teeth {
   0% {
     transform: translateY(0px);
   }
@@ -155,5 +155,5 @@
 }
 
 .emoji.emoji_mouse:hover .emoji_icon_mouse_teeth {
-  animation: swing_mouse_tail 0.25s linear 0s infinite;
+  animation: swing_mouse_teeth 0.25s linear 0s infinite;
 }
