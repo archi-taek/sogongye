@@ -41,7 +41,7 @@
   top: 130px;
 }
 
-@keyframes swing_ear {
+@keyframes swing_rabbit_ear {
   0% {
     transform: none;
   }
@@ -64,18 +64,18 @@
 }
 
 .emoji.emoji_rabbit:hover .emoji_icon_rabbit_ear1 {
-  animation: swing_ear 1.5s linear 0s infinite;
+  animation: swing_rabbit_ear 1.5s linear 0s infinite;
 }
 
 .emoji.emoji_rabbit:hover .emoji_icon_rabbit_ear2 {
-  animation: swing_ear 1.5s linear 0s infinite reverse;
+  animation: swing_rabbit_ear 1.5s linear 0s infinite reverse;
 }
 
 .emoji.emoji_rabbit:hover .emoji_icon_rabbit_carrot {
-  animation: swing_ear 1s linear 0s infinite;
+  animation: swing_rabbit_ear 1s linear 0s infinite;
 }
 
-@keyframes swing_tail {
+@keyframes swing_rabbit_tail {
   0% {
     transform: translateY(0px);
   }
@@ -90,10 +90,10 @@
 }
 
 .emoji.emoji_rabbit:hover .emoji_icon_rabbit_tail {
-  animation: swing_tail 0.5s linear 0s infinite;
+  animation: swing_rabbit_tail 0.5s linear 0s infinite;
 }
 
-@keyframes swing_body {
+@keyframes swing_rabbit_body {
   0% {
     transform: none;
   }
@@ -116,5 +116,5 @@
 }
 
 .emoji.emoji_rabbit:hover .emoji_icon_rabbit_body {
-  animation: swing_body 3s linear 0s infinite;
+  animation: swing_rabbit_body 3s linear 0s infinite;
 }

@@ -41,7 +41,7 @@
   top: 38px;
 }
 
-@keyframes swing_hair {
+@keyframes swing_monster_hair {
   0% {
     transform: none;
   }
@@ -64,19 +64,19 @@
 }
 
 .emoji.emoji_monster:hover .emoji_icon_monster_hair1 {
-  animation: swing_hair 1.5s linear 0s infinite;
+  animation: swing_monster_hair 1.5s linear 0s infinite;
 }
 
 .emoji.emoji_monster:hover .emoji_icon_monster_hair2 {
-  animation: swing_hair 1.5s linear 0s infinite reverse;
+  animation: swing_monster_hair 1.5s linear 0s infinite reverse;
 }
 
 .emoji.emoji_monster:hover .emoji_icon_monster_hair3 {
-  animation: swing_hair 2s linear 0s infinite;
+  animation: swing_monster_hair 2s linear 0s infinite;
 }
 
 .emoji.emoji_monster:hover .emoji_icon_monster_hair4 {
-  animation: swing_hair 2s linear 0s infinite reverse;
+  animation: swing_monster_hair 2s linear 0s infinite reverse;
 }
 
 @keyframes pumping {
@@ -94,5 +94,5 @@
 }
 
 .emoji.emoji_monster:hover .emoji_icon_monster_body {
-  animation: swing_hair 3s linear 0s infinite reverse;
+  animation: swing_monster_hair 3s linear 0s infinite reverse;
 }
