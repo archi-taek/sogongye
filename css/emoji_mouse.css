@@ -1,0 +1,159 @@
+.emoji.emoji_mouse:hover {
+  background-color: rgb(255, 208, 0);
+}
+
+.emoji.emoji_mouse:hover .title.title_mouse {
+  color: rgb(255, 208, 0);
+}
+
+.emoji_icon_mouse_body {
+  position: absolute;
+  z-index: 2;
+  left: 35px;
+  top: 50px;
+}
+
+.emoji_icon_mouse_ear1 {
+  position: absolute;
+  z-index: 3;
+  left: 90px;
+  top: 30px;
+}
+
+.emoji_icon_mouse_ear2 {
+  position: absolute;
+  z-index: 1;
+  left: 125px;
+  top: 34px;
+}
+
+.emoji_icon_mouse_tail {
+  position: absolute;
+  z-index: 1;
+  left: 12px;
+  top: 115px;
+}
+
+.emoji_icon_mouse_nose {
+  position: absolute;
+  z-index: 3;
+  left: 108px;
+  top: 22px;
+}
+
+.emoji_icon_mouse_teeth {
+  position: absolute;
+  z-index: 3;
+  left: 123px;
+  top: 45px;
+}
+
+@keyframes swing_mouse_ear {
+  0% {
+    transform: none;
+  }
+
+  25% {
+    transform: translateY(-0.5px);
+  }
+
+  50% {
+    transform: none;
+  }
+
+  75% {
+    transform: translateY(0.5px);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.emoji.emoji_mouse:hover .emoji_icon_mouse_ear1 {
+  animation: swing_mouse_ear 1.2s linear 0s infinite;
+}
+
+.emoji.emoji_mouse:hover .emoji_icon_mouse_ear2 {
+  animation: swing_mouse_ear 1.2s linear 0s infinite reverse;
+}
+
+@keyframes swing_mouse_tail {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-3px) rotate(8deg);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.emoji.emoji_mouse:hover .emoji_icon_mouse_tail {
+  animation: swing_mouse_tail 0.5s linear 0s infinite;
+}
+
+@keyframes swing_mouse_body {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(0px) rotate(4deg);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.emoji.emoji_mouse:hover .emoji_icon_mouse_body {
+  animation: swing_mouse_body 2s linear 0s infinite;
+}
+
+@keyframes swing_mouse_nose {
+  0% {
+    transform: none;
+  }
+
+  25% {
+    transform: translateY(-1px) rotate(3.5deg);
+  }
+
+  50% {
+    transform: none;
+  }
+
+  75% {
+    transform: translateY(1px) rotate(-3.5deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+/* .emoji.emoji_mouse:hover .emoji_icon_mouse_nose {
+  animation: swing_mouse_nose 1.5s linear 0s infinite;
+} */
+
+@keyframes swing_mouse_tail {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-2px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.emoji.emoji_mouse:hover .emoji_icon_mouse_teeth {
+  animation: swing_mouse_tail 0.25s linear 0s infinite;
+}

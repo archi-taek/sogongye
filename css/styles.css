@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600");
 @import "emoji_rabbit.css";
 @import "emoji_monster.css";
+@import "emoji_mouse.css";
 
 * {
   box-sizing: border-box;
