@@ -102,6 +102,7 @@ header {
   margin-right: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
+  font-size: medium;
   position: relative;
 }
 
@@ -110,11 +111,12 @@ header {
   justify-content: center;
   align-items: center;
   height: 100%;
-  /* position: relative; */
+  width: 100%;
+  position: absolute;
 }
 
 .empty_text {
-  position: absolute;
+  /* position: absolute; */
   font-size: large;
   color: white;
 }
