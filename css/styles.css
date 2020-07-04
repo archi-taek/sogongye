@@ -16,15 +16,33 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-header {
-  margin-bottom: 30px;
-  font-weight: bold;
-  font-size: 16pt;
-}
-
 a {
   color: inherit;
   text-decoration: none;
+}
+
+header {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab {
+  /* display: block; */
+  width: 160px;
+  text-align: center;
+  font-size: 14pt;
+  padding: 8px;
+}
+
+.tab_so {
+  font-weight: bold;
+  border-bottom: solid;
+  border-width: 2px;
+}
+
+.tab_ye {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 /* main {
