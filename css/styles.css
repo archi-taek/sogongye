@@ -118,7 +118,7 @@ header {
   color: white;
 }
 
-.empty:hover .empty_text {
+.empty:active .empty_text {
   color: #d1d1d1;
 }
 
