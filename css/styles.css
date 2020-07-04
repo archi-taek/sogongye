@@ -28,10 +28,11 @@ header {
 
 .tab {
   /* display: block; */
-  width: 160px;
+  width: 140px;
   text-align: center;
   font-size: 14pt;
-  padding: 8px;
+  padding: 8px 0px;
+  margin: 0px 8px;
 }
 
 .tab_so {
